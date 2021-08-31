@@ -23,6 +23,8 @@ pipeline {
                 echo 'testing'
             }
         }
+
+        Added one line of code 
            stage('Release') {
             steps {
                 echo 'releasing'
